@@ -1,0 +1,12 @@
+# MSVC project
+Debug/
+Release/
+ipch/
+MapConcept/Debug/
+MapConcept/Release/
+MapConcept/Backup/
+MapConcept/LOG.html
+*.suo
+*.sdf
+*.opensdf
+*.user
