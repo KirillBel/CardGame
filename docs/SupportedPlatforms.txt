@@ -16,10 +16,21 @@ Java:
 Android не совместим с gci(не знаю что такое)
 Также нам понадобится JDK 6 (не только JRE).
 
-C++:
-	AIDE - Android IDE - Java, C++
-	CCTools - C/C++ IDE
-	C4droid - C/C++ compiler & IDE
+С++:
+Трудный вопрос. Я до конца не разобрался. но есть такие вещи как Android NDK 
+	(http://habrahabr.ru/post/203014/)
+	Можно в Eclipse. Для этого надо поставить плагин CDT
+	Есть возможность писать в QT
+	Можно так же писать в VS. нужно тоже поколдовать.
+	Есть еще какие то, перечисленные тут: http://apptractor.ru/develop/ide
+		но там ниче не понятно.
+
+Про VS люди жалуются. про гугловский Android Studio непонятно, можно ли в нем прогать на С++.
+про Eclipse люди тоже жалуются. но складывается впечатление что он удобнее. в общем пока
+что основных вариантов два: Eclipse и VS.
+
+
+Под Web:
 
 Flash
 	Macromedia Flash 
@@ -41,4 +52,69 @@ Flash
 на плюсах. Однако для Android более родным языком является все таки Java. Но не думаю, что 
 люди просто по прихоти игры именно на плюсах делают. Так что выбор все же на мой взгляд - C++
 
-Под Web - Flash или Java
+Под Web - Flash или Java. Java предоставляет больше возможностей.
+
+
+Интересные двиги, на которых можно написать игрулю:
+
+WEB: есть Starling Game Engine 1.5, язык программирования:ActionScript 3.
+		Работает так же на Android, iOS, Win.
+
+Android:
+
+Описание всех этих двигов: http://4pda.ru/forum/index.php?showtopic=315915&st=0#entry11745469
+
+самые популярные:
+	1. Unity3D
+	2. ShiVa3D
+	3. AndEngine
+	
+Остальные:
+	Gamekit  - бесплатный
+	INSTEAD - бесплатный
+	Corona SDK  -бесплатный/платный 550$ 
+	Cocos2D - бесплатный
+	LIBgdx - бесплатный
+	ORX - бесплатный
+	jPCT 3D engine  - бесплатный
+	Tululoo Game Maker - бесплатный
+	Game Maker Studio - платный 99$ 
+	Construct 2 - бесплатный\платный 79$
+	Stencyl - бесплатный, но поддержка Android только в платной версии
+	Gideros Studio - платный 149$
+	Marmalade - платный 150$ в год
+	Ardor3D - бесплатный
+	jMonkeyEngine - бесплатный
+	MOMINIS - бесплатный
+	IRM - бесплатный
+	Linderdaum Engine SDK - бесплатный
+	Moai SDK - бесплатный\платный 99$
+	Esenthel Engine  - платный 150$ 
+	IwGame Engine  - бесплатный 
+	DX Studio - бесплатный
+	BatteryTech Engine - бесплатный\платный 249$
+	Unreal Engine 3 - платный 99$ 
+	e3roid - бесплатный
+	Antiryad Gx 3 - бесплатный
+	gameQuery - бесплатный
+	Ethanon Engine - бесплатный
+	PGS4A - бесплатный
+	Crystal Space 3D - бесплатный
+	Godot Game Engine - бесплатный
+	Multimedia Fusion 2  -бесплатный 30 дней/платный
+	Monkey платный 99$
+
+
+
+PC:
+
+Довольно обширный список на вики: http://ru.wikipedia.org/wiki/Список_игровых_движков
+Самый простой это HGE, как говорят в интернетах. Работает только под виндой. Онли 2D.
+	Описание этого двигла тут: 
+		http://make-games.ru/load/sozdanie_igr/igrovye_dvizhki/hge_haaf_39_s_game_engine/135-1-0-845
+
+irrlicht http://ru.wikipedia.org/wiki/Irrlicht_(графический_движок)
+
+Стоит рассмотреть детальнее разные двигла. 
+
+
